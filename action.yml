@@ -1,7 +1,8 @@
 name: 'GitHub Space Aid'
 description: 'Frees up disk space on the runner'
-icon: 'terminal'
-color: 'gray-dark'
+branding:
+  icon: 'terminal'
+  color: 'gray-dark'
 runs:
   using: 'composite'  # This allows us to run multiple shell commands
   steps:
