@@ -8,6 +8,6 @@ To use this action in your GitHub workflow, add the following step:
 
 ```yaml
 steps:
-  - name: Clear Disk Space
+  - name: Free it!
     uses: netbrain/free-disk-space-action@v0.0.1
 ```

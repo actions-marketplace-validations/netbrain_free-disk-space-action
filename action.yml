@@ -1,9 +1,9 @@
-name: 'Free Disk Space'
+name: 'GitHub Space Aid'
 description: 'Frees up disk space on the runner'
 runs:
   using: 'composite'  # This allows us to run multiple shell commands
   steps:
-  - name: Free disk space
+  - name: Space Aid
     run: |
       sudo docker rmi $(docker image ls -aq) >/dev/null 2>&1 || true
       sudo rm -rf \
